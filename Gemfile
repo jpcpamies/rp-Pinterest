@@ -11,6 +11,10 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'bootstrap-sass'
 gem 'devise', '~> 3.5.2'
+# gem 'paperclip', '~> 3.0'
+
+#Este trozo es para repara un problema al instalar paperclip gem
+gem 'paperclip', github: 'thoughtbot/paperclip'
 
 group :development, :test do
 	# We gonna use sqlite3 in development envairoment
@@ -29,6 +33,6 @@ group :development do
   gem 'web-console', '~> 2.0'
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
-  gem 'spring'
+  gem 'spring', '1.4.0'
 end
 
