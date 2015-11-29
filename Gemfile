@@ -12,9 +12,9 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'bootstrap-sass'
 gem 'devise', '~> 3.5.2'
 # gem 'paperclip', '~> 3.0'
-
 #Este trozo es para repara un problema al instalar paperclip gem
 gem 'paperclip', github: 'thoughtbot/paperclip'
+gem 'aws-sdk', '< 2.0'
 
 group :development, :test do
 	# We gonna use sqlite3 in development envairoment
